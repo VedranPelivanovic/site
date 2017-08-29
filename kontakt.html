@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="kontakt.css" media="screen" />
+<html>
+<head>
+
+<title>kontakt</title>
+
+</head>
+<body>
+<div id="container"> 
+
+  <div id="header">
+    <div class="headtitle">KONTAKT</div>
+  </div>
+  <div id="menu"> 
+    <ul>
+      <li><a href="index.html" title="">POČETNA STRANICA</a></li>
+      <li><a href="galerija.html" title="">GALERIJA</a></li>
+      <li><a href="registracija.html" title="">REGISTRACIJA</a></li>
+      <li><a href="kontakt.html" title="">KONTAKT</a></li>
+
+   </ul>
+  </div>
+  <div id="content"> 
+
+    <div id="insidecontent"> <br>
+      <h1>Kontaktirajte nas </h1>
+               <p><br>
+<form enctype="text/plain" action="mailto:vedran.pelivanovic@gmail.com" method="post">
+<p>
+Koja je priroda vašeg komentara?<br>
+<input type="radio" name="nature" value="suggestion">Sugestija
+<input type="radio" name="nature" value="problem">Problem
+<input type="radio" name="nature" value="complaint">Žalba
+</p><br>
+<p>
+Za šta nam se konkretno obraćate?<br>
+<select name="specific">
+<option value="website">Web sajt
+<option value="company">Kompanija
+<option value="ad">Reklama
+<option value="services">Usluge
+<option value="other">Drugo
+</select>
+</p><br>
+<p>
+Molimo Vas unesite vaš komentar ispod:<br>
+<textarea name="comments" rows="6" cols="60" wrap="">
+</textarea>
+</p>
+<p><br>
+Kako Vas možemo kontaktirati?<br>
+<table>
+<tr>
+<td>Ime:</td>
+<td><input type="text" name="name" size="40"></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email" size="40"></td>
+</tr>
+<tr>
+<td>Telefon</td>
+<td><input type="text" name="phone" size="20"></td>
+</tr>
+<tr>
+<td>Fax:</td>
+<td><input type="text" name="fax" size="20"></td>
+</tr>
+</table>
+</p><br>
+<p>
+<input type="checkbox" name="asap">
+Molim Vas kontaktirajte me što pre, u vezi sa ovim komentarom.
+</p><br>
+<p>
+<input type="submit" value="Pošalji komentar">
+<input type="reset" value="Resetuj">
+</p>
+<br><br>
+<br><br>
+</form>
+  
+	   
+    </div>
+
+    
+
+    <div style="clear: both;"></div>
+
+</div>
+
+  <div id="footer"> <span><p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toString();
+</script></span> 
+
+</div>
+<br><br>
+</body>
+</html>
